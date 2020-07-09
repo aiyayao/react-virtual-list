@@ -1,0 +1,27 @@
+.list-wrapper {
+  width: 600px;
+  margin: 0 auto;
+  padding: 1.75rem 0;
+}
+
+.list-container {
+  position: relative;
+  height: 100%;
+  border: 1px solid #e1e4e8;
+}
+
+.list {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #e1e4e8;
+}
